@@ -1,0 +1,248 @@
+package projectinterface;
+
+public interface IPL {
+		 int batsmandisplay();
+		 int bowlersdisplay();
+		 int allroundersdisplay();
+	}
+
+public class RCB1 implements IPL {
+	 public int batsmandisplay(){ 
+		System.out.println("Virat Kohli");
+		System.out.println("Glenn Maxwell");
+		return 0;
+	}
+	 public int bowlersdisplay() {
+		System.out.println(" Wanindu Hasaranga");
+		System.out.println(" Harshal patel");
+		return 1;
+	 }
+	 public int allroundersdisplay() {
+		 System.out.println("Glenn Maxwell");
+		 System.out.println("Dinesh karthika");
+		 return 2;
+	 }
+	 }
+public class CSK2 implements IPL{
+	public int batsmandisplay(){ 
+		System.out.println("MS Dhoni");
+		System.out.println("Devon Conway");
+		return 3;
+	}
+	 public int bowlersdisplay() {
+		System.out.println("Rajvardhan Hangargekar");
+		System.out.println("Mitchell santner ");
+		return 4;
+	 }
+	 public int allroundersdisplay() {
+		 System.out.println("Ravindra Jadeja");
+		 System.out.println("Dwaine pretorius");
+		 return 5;
+	 }
+	 }
+public class DC3  implements IPL{
+	public int batsmandisplay(){ 
+		System.out.println("David Warner");
+		System.out.println("Prithvi Shaw");
+		return 6;
+	}
+	 public int bowlersdisplay() {
+		System.out.println("Mustafizur Rahman");
+		System.out.println("Anrich Nortje");
+		return 7;
+	 }
+	 public int allroundersdisplay() {
+		 System.out.println("Axar Patel");
+		 System.out.println("Lalit Yadav");
+		 return 8;
+	 }
+
+}public class SRH4 implements IPL{
+		public int batsmandisplay(){ 
+			System.out.println("Aiden Markram");
+			System.out.println("Rahul Tripathi");
+			return 9;
+		}
+		 public int bowlersdisplay() {
+			System.out.println("Bhuvneshwar Kumar");
+			System.out.println("Harry Brook");
+			return 10;
+		 }
+		 public int allroundersdisplay() {
+			 System.out.println("Washington sundar");
+			 System.out.println("Abhhishek sharma");
+			 return 11;
+		 }
+public static void main(String[] args) {
+	    IPL RCB1 =new RCB1();
+	    System.out.println("batsman in RCB1:"+ RCB1.batsmandisplay());
+	    System.out.println("bowlers in RCB1:"+ RCB1.bowlersdisplay());
+	    System.out.println("allrounder in RCB1:"+ RCB1.allroundersdisplay());
+}
+		 }
+public class KKR5 implements IPL{
+	public int batsmandisplay(){ 
+		System.out.println("Nitish Rana");
+		System.out.println("Rinku singh");
+		return 12;
+	}
+	 public int bowlersdisplay() {
+		System.out.println("Umesh yadav");
+		System.out.println("Harit Rana");
+		return 13;
+	 }
+	 public int allroundersdisplay() {
+		 System.out.println("Venkatesh Iyer");
+		 System.out.println("sunil Narine");
+		 return 14;
+	 }
+
+}public class MI6 implements IPL{
+	public int batsmandisplay(){ 
+		System.out.println("Rhoit sharma");
+		System.out.println("suryakumar Yadav");
+		return 15;
+	}
+	 public int bowlersdisplay() {
+		System.out.println("Jofra Archer");
+		System.out.println("Arjun Tendulkar");
+		return 16;
+	 }
+	 public int allroundersdisplay() {
+		 System.out.println("Tim David");
+		 System.out.println("Hrithik shokeen");
+		 return 17;
+	 }
+}public class GT7 implements IPL{
+	public int batsmandisplay(){ 
+		System.out.println("Shubman Gill");
+		System.out.println(" David Miller");
+		return 18;
+	}
+	 public int bowlersdisplay() {
+		System.out.println("Rashid Khan");
+		System.out.println("Mohammed shami");
+		return 19;
+	 }
+	 public int allroundersdisplay() {
+		 System.out.println("Hardik panya");
+		 System.out.println("Rahul Tewatia");
+		 return 20;
+	 }
+
+}public class RR8 implements IPL{
+	public int batsmandisplay(){ 
+		System.out.println("Sanju Samson");
+		System.out.println("Jos Buttler");
+		return 21;
+	}
+	 public int bowlersdisplay() {
+		System.out.println("R.Ashwin");
+		System.out.println("Trent Boult");
+		return 22;
+	 }
+	 public int allroundersdisplay() {
+		 System.out.println("Jason Holder");
+		 System.out.println("Akash Vashisht");
+		 return 23;
+	 }
+
+}public class LSG9 implements IPL{
+	public int batsmandisplay(){ 
+		System.out.println("KL Rahul");
+		System.out.println("Manan Vohra");
+		return 24;
+	}
+	 public int bowlersdisplay() {
+		System.out.println("Avesh Khan");
+		System.out.println("Mark Wood");
+		return 25;
+	 }
+	 public int allroundersdisplay() {
+		 System.out.println("Krunal pandya");
+		 System.out.println("Deepak Hooda");
+		 return 26;
+	 }
+
+}
+public class PBKS10 implements IPL{
+	public int batsmandisplay(){ 
+		System.out.println("Shikhar Dhawan");
+		System.out.println("Harpreet Brar");
+		return 27;
+	}
+	 public int bowlersdisplay() {
+		System.out.println("Rahul chahar");
+		System.out.println("Nathan Ellis");
+		return 28;
+	 }
+	 public int allroundersdisplay() {
+		 System.out.println("mattew short");
+		 System.out.println("Rishi Dhawan");
+		 return 29;
+	 }
+    public static void main(String[] args) {
+    	IPL RCB1=new RCB1();
+    	System.out.println("batsmandisplay in RCB1:"+ RCB1.batsmandisplay());
+    	System.out.println("bowlersdisplay in RCB1:"+ RCB1.bowlersdisplay());
+    	System.out.println("allroundersdisplay in RCB1:"+ RCB1.allroundersdisplay());
+    	
+    	IPL CSK2=new CSK2();
+    	System.out.println("batsmandisplay in CSK2:"+ CSK2.batsmandisplay());
+    	System.out.println("bowlersdisplay in CSK2:"+CSK2.bowlersdisplay());
+    	System.out.println("allroundersdisplay in CSK2:"+ CSK2.allroundersdisplay());
+    	
+    	IPL DC3=new DC3();
+    	System.out.println("batsmandisplay in DC3:"+ DC3.batsmandisplay());
+    	System.out.println("bowlersdisplay in DC3:"+ DC3.bowlersdisplay());
+    	System.out.println("allroundersdisplay in DC3:"+ DC3.allroundersdisplay());
+    	
+    	IPL SRH4=new SRH4();
+    	System.out.println("batsmandisplay in SRH4:"+ SRH4.batsmandisplay());
+    	System.out.println("bowlersdisplay in SRH4:"+ SRH4.bowlersdisplay());
+    	System.out.println("allroundersdisplay in SRH4:"+ SRH4.allroundersdisplay());
+    	
+    	IPL KKR5=new KKR5();
+    	System.out.println("batsmandisplay in KKR5:"+ KKR5.batsmandisplay());
+    	System.out.println("bowlersdisplay in KKR5:"+ KKR5.bowlersdisplay());
+    	System.out.println("allroundersdisplay in KKR5:"+ KKR5.allroundersdisplay());
+    	
+    	
+    	IPL MI6=new MI6();
+    	System.out.println("batsmandisplay in MI6:"+ MI6.batsmandisplay());
+    	System.out.println("bowlersdisplay in MI6:"+ MI6.bowlersdisplay());
+    	System.out.println("allroundersdisplay in MI6:"+ MI6.allroundersdisplay());
+    	
+    	IPL GT7=new GT7();
+    	System.out.println("batsmandisplay in GT7:"+ GT7.batsmandisplay());
+    	System.out.println("bowlersdisplay in GT7:"+ GT7.bowlersdisplay());
+    	System.out.println("allroundersdisplay in GT7:"+ GT7.allroundersdisplay());
+    	
+    	
+    	IPL RR8=new RR8();
+    	System.out.println("batsmandisplay in RR8:"+ RR8.batsmandisplay());
+    	System.out.println("bowlersdisplay in RR8:"+ RR8.bowlersdisplay());
+    	System.out.println("allroundersdisplay in RR8:"+ RR8.allroundersdisplay());
+    	
+    	IPL LSG9=new RCB1();
+    	System.out.println("batsmandisplay in LSG9:"+ LSG9.batsmandisplay());
+    	System.out.println("bowlersdisplay in LSG9:"+ LSG9.bowlersdisplay());
+    	System.out.println("allroundersdisplay in LSG9:"+ LSG9.allroundersdisplay());
+    	
+    	
+    	IPL PBKS10=new PBKS10();
+    	System.out.println("batsmandisplay in PBKS10:"+ PBKS10.batsmandisplay());
+    	System.out.println("bowlersdisplay in PBKS10:"+ PBKS10.bowlersdisplay());
+    	System.out.println("allroundersdisplay in PBKS10:"+ PBKS10.allroundersdisplay());
+    	
+    	}
+}
+
+
+
+
+
+
+
+
+
